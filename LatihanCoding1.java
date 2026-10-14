@@ -4,7 +4,7 @@ public class LatihanCoding1 {
      public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 
-            String nama;
+            String namaPenyewa;
             int hargaSewaPerJam = 75000;
             int hargaDrum = 20000;
             int hargaMikrofon = 10000;
@@ -21,7 +21,7 @@ public class LatihanCoding1 {
 
 
             System.out.print("Masukkan nama penyewa : ");
-            nama = sc.nextLine();
+            namaPenyewa = sc.nextLine();
             System.out.print("Masukkan lama sewa (jam) : ");
             lamaSewa = sc.nextInt();    
             System.out.println("Masukkan member (Y/N) : ");
@@ -74,7 +74,7 @@ public class LatihanCoding1 {
 
         // Output
             System.out.println("\n===== STRUK PENYEWAAN STUDIO =====");
-            System.out.println("Nama                 : " + nama);
+            System.out.println("Nama                 : " + namaPenyewa);
             System.out.println("Lama sewa            : " + lamaSewa + " jam");
             System.out.println("Status member        : " + (member == 'y' ? "Member" : "Bukan member"));
             System.out.println("Harga sebelum diskon : Rp" + hargaSebelumDiskon);
