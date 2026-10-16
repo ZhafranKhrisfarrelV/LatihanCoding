@@ -16,6 +16,11 @@ public class LatihanCoding2 {
         System.out.print("Masukkan Jumlah Buku Yang Dipinjam : ");
         jumlahBuku = sc.nextInt();
 
+         if (jumlahBuku < 1) {
+            System.out.print("Jumlah buku kurang valid");
+            return;
+        }
+        
         if (jumlahBuku < 3) {
             presentaseDiskon = 0;
         } else if (jumlahBuku >= 3 && jumlahBuku <= 5) {
@@ -23,10 +28,6 @@ public class LatihanCoding2 {
         } else {
             presentaseDiskon = 15;
         } 
-
-        if (jumlahBuku < 1) {
-            System.out.print("Jumlah buku kurang valid");
-            }
 
 
         totalBiayaSebelumPotongan = biayaSewa * jumlahBuku;
