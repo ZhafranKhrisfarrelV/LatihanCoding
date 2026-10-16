@@ -38,7 +38,7 @@ public class LatihanCoding2 {
         System.out.println("Total Biaya Sebelum Potongan : " + totalBiayaSebelumPotongan);
         System.out.println("Presentase Diskon            : " + presentaseDiskon);
         System.out.println("Nilai Potongan               : " + (int) nilaiPotongan);
-        System.out.println("Total Biaya Setelah Potongan : " + (int) totalBiayaSetelahPotongan);
+        System.out.print("Total Biaya Setelah Potongan : " + (int) totalBiayaSetelahPotongan);
 
         
         }
