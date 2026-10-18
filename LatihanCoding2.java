@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class LatihanCoding2 {
-    public static void main(String[] args) {
+
+void main() {
         try (Scanner sc = new Scanner(System.in)) {
 
         int biayaSewa = 5000;
@@ -45,4 +45,3 @@ public class LatihanCoding2 {
         }
 
     }
-}
