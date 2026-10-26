@@ -5,7 +5,7 @@ void main() {
 
     // nested loop : For
     for (int b = 0; b < 10; b++) {
-        for (int k = 0; k <= b; k++) {
+        for (int k = 0; k <= 9 - b; k++) {
             System.out.print("*");
         }
         System.out.println();
